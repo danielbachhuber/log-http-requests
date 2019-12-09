@@ -138,7 +138,8 @@ class Log_HTTP_Requests
                 wp_parse_url( $url, PHP_URL_HOST ),
                 apply_filters( 'lhr_ignored_hosts', array() ),
                 true
-            ) {
+            )
+        ) {
             return;
         }
 
